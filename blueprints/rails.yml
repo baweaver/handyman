@@ -3,6 +3,10 @@
 # 
 # Makes Ruby 2 and Rails 4
 
+Git:
+  - 'apt-get install git'
+  - 'git config --global user.name %{name}'
+  - 'git config --global user.email %{email}'
 Ruby:
   - 'apt-get install curl'
   - 'curl -L https://get.rvm.io | bash'
