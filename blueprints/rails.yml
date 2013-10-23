@@ -4,11 +4,10 @@
 # Makes Ruby 2 and Rails 4
 
 Ruby:
-  RVM:
-    - 'apt-get install curl'
-    - 'curl -L https://get.rvm.io | bash'
-    - 'rvm install 2.0'
-  Bundler:
-    - 'gem install bundler --pre'
-  Rails:
-    - 'gem install rails --no-rdoc --no-ri'
+  - 'apt-get install curl'
+  - 'curl -L https://get.rvm.io | bash'
+  - 'rvm install 2.0'
+Bundler:
+  - 'gem install bundler --pre'
+Rails:
+  - 'gem install rails --no-rdoc --no-ri'
