@@ -1,12 +1,11 @@
 # Handyman
 
-Build a remote system.
+Lightweight remote deployment and build tool.
 
-This gem is currently in pre-alpha planning and will not work. As such
-I'll include a few sample blueprints to give an idea as to what I'm
-after with this project.
+## Usage
 
-The general goal here is to have a quick and lightweight system for
-defining how to install certain tasks on a remote server without going
-to the notable extremes of something like Chef or other deployment
-tools.
+    Handyman::make(blueprint.yaml, 'ip', 'user', 'password')
+    
+## Intended Improvements
+
+Make a hosts and configuration file to take the need to input params past the blueprint out of the make command.
