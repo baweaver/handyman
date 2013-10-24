@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["brandon_weaver@baweaver.com"]
   spec.description   = %q{Quick and Dirty Remote Builds}
   spec.summary       = %q{Herd Boxen in a more manageable fashion}
-  spec.homepage      = "github.com/baweaver/handyman"
+  spec.homepage      = "http://github.com/baweaver/handyman"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "net-ssh"
+  spec.add_development_dependency "highline"
 end
